@@ -10,14 +10,14 @@
   <main>
     <h1>Amigo Secreto 🎁</h1>
     <div id="setup">
-      <h2>Registro de Jugadores</h2>
-      <input type="text" id="playerName" placeholder="Ingresa tu nombre">
-      <button id="addPlayer">Agregar Jugador</button>
+      <h2>Jugadores Registrados</h2>
       <ul id="playerList"></ul>
     </div>
     <div id="game" class="hidden">
       <h2>¿Quién es tu Amigo Secreto?</h2>
-      <button id="revealSecret">Descubrir Amigo Secreto</button>
+      <input type="text" id="playerName" placeholder="Ingresa tu nombre">
+      <button id="validatePlayer">Validar Nombre</button>
+      <button id="revealSecret" disabled>Descubrir Amigo Secreto</button>
       <p id="secretMessage"></p>
     </div>
   </main>
