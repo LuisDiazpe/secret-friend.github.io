@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #4CAF50;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  #playerList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #playerList li {
+    padding: 5px;
+    background-color: #eee;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
